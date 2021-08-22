@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.sironam{
+    font-size:100%;
+    
+}
+h1{
+    font-size: 50px;
+}
+.blue-color{
+    color:rgb(219, 0, 183);
+}
+section{
+    display:flex;
+
+}
+.half-width{
+    width: 700px;
+    padding: 120px;
+    
+    
+}
+.button-one{
+
+    text-decoration: none;
+    background-image: linear-gradient(  skyblue, blue);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url( images/top-banner.png);
+    background-repeat: no-repeat;
+}
