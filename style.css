@@ -17,13 +17,15 @@ h2{
 }
 .flexible-container{
     display:flex;
+    
 
+}
+.half-width img{
+    width: 110%;
 }
 .half-width{
     width: 700px;
-    padding: 120px;
-    
-    
+    padding: 40px;  
 }
 .scnd-width{
 width: 1000px;
@@ -44,6 +46,7 @@ padding: 90px ;
 .top-banner{
     background-image: url( images/top-banner.png);
     background-repeat: no-repeat;
+    padding-left: 8%;
 }
 .dream-big{
     background-image: url( images/dream-bg.png );
