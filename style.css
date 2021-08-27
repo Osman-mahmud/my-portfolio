@@ -13,7 +13,8 @@ h2{
     font-size: 40px;
 }
 .blue-color{
-    color:rgb(219, 0, 183);
+    color: rgb(235, 22, 206);
+    font-size: 40px;
 }
 .flexible-container{
     display:flex;
@@ -25,7 +26,7 @@ h2{
 }
 .half-width{
     width: 700px;
-    padding: 40px;  
+    padding: 60px;  
 }
 .scnd-width{
 width: 1000px;
