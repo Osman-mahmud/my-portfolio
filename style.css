@@ -9,10 +9,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .blue-color{
     color:rgb(219, 0, 183);
 }
-section{
+.flexible-container{
     display:flex;
 
 }
@@ -47,4 +50,31 @@ padding: 90px ;
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.bottom-section{
+    background-image: url( images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 230px;
+}
+.bottom-box{
+    box-shadow: 10px 10px 90px gray;
+    width: 700px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 100px;
+    padding: 2%;
+    
+}
+#full-stack-area{
+    border-left: 7px solid;
+    border-image: linear-gradient( orange, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#baby-area{
+    border-left: 7px solid;
+    border-image: linear-gradient( cyan, blue);
+    border-image-slice: 1;
+    border-radius: 5px;
 }
